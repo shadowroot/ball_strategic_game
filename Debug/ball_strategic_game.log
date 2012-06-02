@@ -1,0 +1,43 @@
+﻿Build started 5/31/2012 1:46:16 PM.
+     1>Project "C:\Users\jonny\documents\visual studio 2010\Projects\ball_strategic_game\ball_strategic_game\ball_strategic_game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ball_strategic_game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ball_strategic_game.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ball_strategic_game.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ball.cpp ball_strategic_game.cpp engine.cpp graphics.cpp physics.cpp vm.cpp
+         Skipping... (no relevant changes detected)
+         vm.cpp
+         physics.cpp
+         graphics.cpp
+         engine.cpp
+         ball_strategic_game.cpp
+         ball.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\ball_strategic_game.res" ball_strategic_game.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ball_strategic_game.exe.embed.manifest.res" Debug\ball_strategic_game_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jonny\documents\visual studio 2010\Projects\ball_strategic_game\Debug\ball_strategic_game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ball_strategic_game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jonny\documents\visual studio 2010\Projects\ball_strategic_game\Debug\ball_strategic_game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jonny\documents\visual studio 2010\Projects\ball_strategic_game\Debug\ball_strategic_game.lib" /MACHINE:X86 Debug\ball_strategic_game.res
+         Debug\ball_strategic_game.exe.embed.manifest.res
+         Debug\ball.obj
+         Debug\ball_strategic_game.obj
+         Debug\engine.obj
+         Debug\graphics.obj
+         Debug\physics.obj
+         Debug\stdafx.obj
+         Debug\vm.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ball_strategic_game.exe.embed.manifest" /manifest Debug\ball_strategic_game.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         ball_strategic_game.vcxproj -> C:\Users\jonny\documents\visual studio 2010\Projects\ball_strategic_game\Debug\ball_strategic_game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ball_strategic_game.unsuccessfulbuild".
+         Touching "Debug\ball_strategic_game.lastbuildstate".
+     1>Done Building Project "C:\Users\jonny\documents\visual studio 2010\Projects\ball_strategic_game\ball_strategic_game\ball_strategic_game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.16
